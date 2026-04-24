@@ -29,7 +29,8 @@
     "@medusajs/event-bus-redis": "^2.13.6",
     "@medusajs/framework": "2.13.6",
     "@medusajs/medusa": "2.13.6",
-    "lucide-react": "^1.8.0"
+    "lucide-react": "^1.8.0",
+    "recharts": "^3.8.1"
   },
   "devDependencies": {
     "@medusajs/test-utils": "2.13.6",

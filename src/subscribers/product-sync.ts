@@ -6,7 +6,13 @@ export default async function productSyncHandler({
   event,
   container,
 }: SubscriberArgs<any>) {
-  const searchService = container.resolve(SEARCH_MODULE) as any;
+  let searchService;
+  try {
+    searchService = container.resolve(SEARCH_MODULE) as any;
+  } catch (e) {
+    console.warn("Search module not found, skipping sync.");
+    return;
+  }
   const productModuleService = container.resolve(Modules.PRODUCT);
 
   const productId = event.data.id;

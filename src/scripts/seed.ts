@@ -40,56 +40,16 @@ const CATEGORIES = [
 ];
 
 const UNIQUE_CARPET_IMAGES = [
-  "https://images.unsplash.com/photo-1588421874990-1fe162747f9b",
-  "https://images.unsplash.com/photo-1594040226829-7f251ab46d80",
-  "https://images.unsplash.com/photo-1660394585016-508f949df960",
-  "https://images.unsplash.com/photo-1534889156217-d643df14f14a",
-  "https://images.unsplash.com/photo-1671576563965-23993d69eb17",
-  "https://images.unsplash.com/photo-1600166898405-da9535204843",
-  "https://images.unsplash.com/photo-1714926618653-39de3cf5b691",
-  "https://images.unsplash.com/photo-1608724553456-89e963624dbb",
-  "https://images.unsplash.com/photo-1599503815079-dfb7085fc667",
-  "https://images.unsplash.com/photo-1594847915592-2a7ef568e2b6",
-  "https://images.unsplash.com/photo-1652634213812-f0deeb1de78e",
-  "https://images.unsplash.com/photo-1572123979839-3749e9973aba",
-  "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20",
-  "https://images.unsplash.com/photo-1575414003591-ece8d0416c7a",
-  "https://images.unsplash.com/photo-1695632953654-78815eee7296",
-  "https://images.unsplash.com/photo-1520699514109-b478c7b48d3b",
-  "https://images.unsplash.com/photo-1597665863042-47e00964d899",
-  "https://images.unsplash.com/photo-1606121156579-da13cfab2731",
-  "https://images.unsplash.com/photo-1558944351-3f79926e74ef",
-  "https://images.unsplash.com/photo-1594922234647-4ade6282c369",
-  "https://images.unsplash.com/photo-1545078194-2ec3c4e53ed1",
-  "https://images.unsplash.com/photo-1546550879-3b71f2427ae0",
-  "https://images.unsplash.com/photo-1621700052663-f1170e9b26ec",
-  "https://images.unsplash.com/photo-1776231972021-49d6b6152156",
-  "https://images.unsplash.com/photo-1635800063077-ca924ec7fe58",
-  "https://images.unsplash.com/photo-1531162805941-58330188d75c",
-  "https://images.unsplash.com/photo-1685006172337-9ef5c250da0b",
-  "https://images.unsplash.com/photo-1582022685142-8c667072c4d9",
-  "https://images.unsplash.com/photo-1579005162638-11c872e1586e",
-  "https://images.unsplash.com/photo-1602795493253-c1da1fed546a",
-  "https://images.unsplash.com/photo-1558114965-eeb97aa84c3b",
-  "https://images.unsplash.com/photo-1577084381419-8141b7840a08",
-  "https://images.unsplash.com/photo-1581345331960-d1b0a223ef96",
-  "https://images.unsplash.com/photo-1606885118474-c8baf907e998",
-  "https://images.unsplash.com/photo-1624873584368-0dece53e6ed3",
-  "https://images.unsplash.com/photo-1565930421205-ffa06d785b44",
-  "https://images.unsplash.com/photo-1557502236-b389b3a38a7d",
-  "https://images.unsplash.com/photo-1720458606063-a1b944884641",
-  "https://images.unsplash.com/photo-1717744258101-783e84e9f7ce",
-  "https://images.unsplash.com/photo-1718002877969-0cb8496ea194",
-  "https://images.unsplash.com/photo-1718002877981-3c2bafe53cb0",
-  "https://images.unsplash.com/photo-1720458606131-e99549a74baa",
-  "https://images.unsplash.com/photo-1718002877129-3c4184e31b9a",
-  "https://images.unsplash.com/photo-1717744258123-c3aceddf74d1",
-  "https://images.unsplash.com/photo-1717744256898-365aa8b8454c",
-  "https://images.unsplash.com/photo-1717744257374-80e4b6430830",
-  "https://images.unsplash.com/photo-1767709114023-02f6398ac7a5",
-  "https://images.unsplash.com/photo-1776111463661-70ba4bb6d246",
-  "https://images.unsplash.com/photo-1601082096597-81455f512d14",
-  "https://images.unsplash.com/photo-1765802536365-e2267a489a2c"
+  "https://images.unsplash.com/photo-1600166898405-da9535204843", // Persian style rug
+  "https://images.unsplash.com/photo-1594040226829-7f251ab46d80", // Modern rug
+  "https://images.unsplash.com/photo-1594847915592-2a7ef568e2b6", // Vintage rug
+  "https://images.unsplash.com/photo-1534889156217-d643df14f14a", // Patterned rug
+  "https://images.unsplash.com/photo-1572123979839-3749e9973aba", // Living room rug
+  "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20", // Minimalist rug
+  "https://images.unsplash.com/photo-1575414003591-ece8d0416c7a", // Bohemian rug
+  "https://images.unsplash.com/photo-1520699514109-b478c7b48d3b", // Textured rug
+  "https://images.unsplash.com/photo-1606121156579-da13cfab2731", // Classic rug
+  "https://images.unsplash.com/photo-1545078194-2ec3c4e53ed1", // Area rug
 ];
 
 interface ProductSeed {
